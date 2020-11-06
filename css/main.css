@@ -183,6 +183,7 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	width: 100%;
 }
 footer span {
 	font-family: 'Galada', cursive;
@@ -216,5 +217,8 @@ footer span {
 
 /* ---- Desktop Styles ----*/
 @media all and (min-width: 1200px) {
-
+header nav ul {
+	display: flex;
+	justify-content: space-between;
+}
 }
